@@ -1,0 +1,181 @@
+2024-10-06 10:19:06,024 - INFO - Memory usage requested.
+2024-10-06 10:19:06,321 - WARNING - Not Found: /favicon.ico
+2024-10-06 15:19:17,415 - WARNING - Not Found: /bandwidth/
+2024-10-06 15:19:17,419 - WARNING - Not Found: /bandwidth/
+2024-10-06 15:19:17,421 - WARNING - Not Found: /cpu/
+2024-10-06 15:19:17,422 - WARNING - Not Found: /cpu/
+2024-10-06 15:19:17,424 - WARNING - Not Found: /disk/
+2024-10-06 15:19:17,426 - WARNING - Not Found: /disk/
+2024-10-06 15:19:17,428 - WARNING - Not Found: /memory/
+2024-10-06 15:21:03,126 - INFO - Memory usage requested.
+2024-10-06 15:21:10,591 - INFO - CPU usage requested: 10.1%
+2024-10-06 15:21:16,158 - INFO - disk usage requested
+2024-10-06 15:21:25,137 - INFO - Bandwidth usage requested.
+2024-10-06 15:22:06,457 - WARNING - Not Found: /bandwidth/
+2024-10-06 15:22:06,460 - WARNING - Not Found: /bandwidth/
+2024-10-06 15:22:06,462 - WARNING - Not Found: /cpu/
+2024-10-06 15:22:06,464 - WARNING - Not Found: /cpu/
+2024-10-06 15:22:06,466 - WARNING - Not Found: /disk/
+2024-10-06 15:22:06,468 - WARNING - Not Found: /disk/
+2024-10-06 15:22:06,470 - WARNING - Not Found: /memory/
+2024-10-06 15:29:41,162 - ERROR - Error getting bandwidth usage: Bandwidth error
+2024-10-06 15:29:41,164 - ERROR - Internal Server Error: /api/bandwidth/
+2024-10-06 15:29:41,165 - INFO - Bandwidth usage requested.
+2024-10-06 15:29:41,166 - ERROR - Error getting CPU usage: CPU error
+2024-10-06 15:29:41,166 - ERROR - Internal Server Error: /api/cpu/
+2024-10-06 15:29:41,168 - INFO - CPU usage requested: 50%
+2024-10-06 15:29:41,172 - ERROR - Error getting disk usage: Disk error
+2024-10-06 15:29:41,172 - ERROR - Internal Server Error: /api/disk/
+2024-10-06 15:29:41,174 - INFO - disk usage requested
+2024-10-06 15:29:41,177 - ERROR - Error getting memory usage: Memory error
+2024-10-06 15:29:41,178 - ERROR - Internal Server Error: /api/memory/
+2024-10-06 15:36:51,588 - ERROR - Error getting bandwidth usage: Bandwidth error
+2024-10-06 15:36:51,588 - ERROR - Internal Server Error: /api/bandwidth/
+2024-10-06 15:36:51,590 - INFO - Bandwidth usage requested.
+2024-10-06 15:36:51,591 - ERROR - Error getting CPU usage: CPU error
+2024-10-06 15:36:51,592 - ERROR - Internal Server Error: /api/cpu/
+2024-10-06 15:36:51,593 - INFO - CPU usage requested: 50%
+2024-10-06 15:36:51,595 - ERROR - Error getting disk usage: Disk error
+2024-10-06 15:36:51,595 - ERROR - Internal Server Error: /api/disk/
+2024-10-06 15:36:51,598 - INFO - disk usage requested
+2024-10-06 15:36:51,600 - ERROR - Error getting memory usage: Memory error
+2024-10-06 15:36:51,600 - ERROR - Internal Server Error: /api/memory/
+2024-10-06 16:18:57,514 - ERROR - Error getting bandwidth usage: Bandwidth error
+2024-10-06 16:18:57,515 - ERROR - Internal Server Error: /api/bandwidth/
+2024-10-06 16:18:57,516 - INFO - Bandwidth usage requested.
+2024-10-06 16:18:57,517 - ERROR - Error getting CPU usage: CPU error
+2024-10-06 16:18:57,517 - ERROR - Internal Server Error: /api/cpu/
+2024-10-06 16:18:57,518 - INFO - CPU usage requested: 50%
+2024-10-06 16:18:57,522 - ERROR - Error getting disk usage: Disk error
+2024-10-06 16:18:57,522 - ERROR - Internal Server Error: /api/disk/
+2024-10-06 16:18:57,524 - INFO - disk usage requested
+2024-10-06 16:18:57,526 - ERROR - Error getting memory usage: Memory error
+2024-10-06 16:18:57,526 - ERROR - Internal Server Error: /api/memory/
+2024-10-06 16:20:27,247 - ERROR - Error getting bandwidth usage: Bandwidth error
+2024-10-06 16:20:27,248 - ERROR - Internal Server Error: /api/bandwidth/
+2024-10-06 16:20:27,250 - INFO - Bandwidth usage requested.
+2024-10-06 16:20:27,250 - ERROR - Error getting CPU usage: CPU error
+2024-10-06 16:20:27,252 - ERROR - Internal Server Error: /api/cpu/
+2024-10-06 16:20:27,253 - INFO - CPU usage requested: 50%
+2024-10-06 16:20:27,256 - ERROR - Error getting disk usage: Disk error
+2024-10-06 16:20:27,256 - ERROR - Internal Server Error: /api/disk/
+2024-10-06 16:20:27,258 - INFO - disk usage requested
+2024-10-06 16:20:27,260 - ERROR - Error getting memory usage: Memory error
+2024-10-06 16:20:27,261 - ERROR - Internal Server Error: /api/memory/
+2024-10-06 16:20:27,263 - INFO - Memory usage requested.
+2024-10-06 16:21:56,383 - ERROR - Error getting bandwidth usage: Bandwidth error
+2024-10-06 16:21:56,384 - ERROR - Internal Server Error: /api/bandwidth/
+2024-10-06 16:21:56,386 - INFO - Bandwidth usage requested.
+2024-10-06 16:21:56,387 - ERROR - Error getting CPU usage: CPU error
+2024-10-06 16:21:56,387 - ERROR - Internal Server Error: /api/cpu/
+2024-10-06 16:21:56,388 - INFO - CPU usage requested: 50%
+2024-10-06 16:21:56,393 - ERROR - Error getting disk usage: Disk error
+2024-10-06 16:21:56,393 - ERROR - Internal Server Error: /api/disk/
+2024-10-06 16:21:56,395 - INFO - disk usage requested
+2024-10-06 16:21:56,398 - ERROR - Error getting memory usage: Memory error
+2024-10-06 16:21:56,398 - ERROR - Internal Server Error: /api/memory/
+2024-10-06 16:21:56,401 - INFO - Memory usage requested.
+2024-10-06 16:23:20,301 - ERROR - Error getting bandwidth usage: Bandwidth error
+2024-10-06 16:23:20,302 - ERROR - Internal Server Error: /api/bandwidth/
+2024-10-06 16:23:20,304 - INFO - Bandwidth usage requested.
+2024-10-06 16:23:20,305 - ERROR - Error getting CPU usage: CPU error
+2024-10-06 16:23:20,306 - ERROR - Internal Server Error: /api/cpu/
+2024-10-06 16:23:20,306 - INFO - CPU usage requested: 50%
+2024-10-06 16:23:20,309 - ERROR - Error getting disk usage: Disk error
+2024-10-06 16:23:20,309 - ERROR - Internal Server Error: /api/disk/
+2024-10-06 16:23:20,310 - INFO - disk usage requested
+2024-10-06 16:23:20,315 - ERROR - Error getting memory usage: Memory error
+2024-10-06 16:23:20,315 - ERROR - Internal Server Error: /api/memory/
+2024-10-06 16:23:20,318 - INFO - Memory usage requested.
+2024-10-06 16:24:59,893 - ERROR - Error getting bandwidth usage: Bandwidth error
+2024-10-06 16:24:59,894 - ERROR - Internal Server Error: /api/bandwidth/
+2024-10-06 16:24:59,895 - INFO - Bandwidth usage requested.
+2024-10-06 16:24:59,897 - ERROR - Error getting CPU usage: CPU error
+2024-10-06 16:24:59,897 - ERROR - Internal Server Error: /api/cpu/
+2024-10-06 16:24:59,898 - INFO - CPU usage requested: 50%
+2024-10-06 16:24:59,902 - ERROR - Error getting disk usage: Disk error
+2024-10-06 16:24:59,903 - ERROR - Internal Server Error: /api/disk/
+2024-10-06 16:24:59,905 - INFO - disk usage requested
+2024-10-06 16:24:59,907 - ERROR - Error getting memory usage: Memory error
+2024-10-06 16:24:59,908 - ERROR - Internal Server Error: /api/memory/
+2024-10-06 16:24:59,910 - INFO - Memory usage requested.
+2024-10-06 16:26:43,534 - ERROR - Error getting bandwidth usage: Bandwidth error
+2024-10-06 16:26:43,534 - ERROR - Internal Server Error: /api/bandwidth/
+2024-10-06 16:26:43,536 - INFO - Bandwidth usage requested.
+2024-10-06 16:26:43,538 - ERROR - Error getting CPU usage: CPU error
+2024-10-06 16:26:43,538 - ERROR - Internal Server Error: /api/cpu/
+2024-10-06 16:26:43,539 - INFO - CPU usage requested: 50%
+2024-10-06 16:26:43,542 - ERROR - Error getting disk usage: Disk error
+2024-10-06 16:26:43,543 - ERROR - Internal Server Error: /api/disk/
+2024-10-06 16:26:43,544 - INFO - disk usage requested
+2024-10-06 16:26:43,545 - ERROR - Error getting memory usage: Memory error
+2024-10-06 16:26:43,546 - ERROR - Internal Server Error: /api/memory/
+2024-10-06 16:26:43,547 - INFO - Memory usage requested.
+2024-10-06 16:27:58,609 - ERROR - Error getting bandwidth usage: Bandwidth error
+2024-10-06 16:27:58,609 - ERROR - Internal Server Error: /api/bandwidth/
+2024-10-06 16:27:58,611 - INFO - Bandwidth usage requested.
+2024-10-06 16:27:58,613 - ERROR - Error getting CPU usage: CPU error
+2024-10-06 16:27:58,614 - ERROR - Internal Server Error: /api/cpu/
+2024-10-06 16:27:58,615 - INFO - CPU usage requested: 50%
+2024-10-06 16:27:58,620 - ERROR - Error getting disk usage: Disk error
+2024-10-06 16:27:58,620 - ERROR - Internal Server Error: /api/disk/
+2024-10-06 16:27:58,624 - INFO - disk usage requested
+2024-10-06 16:27:58,629 - ERROR - Error getting memory usage: Memory error
+2024-10-06 16:27:58,629 - ERROR - Internal Server Error: /api/memory/
+2024-10-06 16:27:58,634 - INFO - Memory usage requested.
+2024-10-06 16:29:42,977 - ERROR - Error getting bandwidth usage: Bandwidth error
+2024-10-06 16:29:42,977 - ERROR - Internal Server Error: /api/bandwidth/
+2024-10-06 16:29:42,979 - INFO - Bandwidth usage requested.
+2024-10-06 16:29:42,980 - ERROR - Error getting CPU usage: CPU error
+2024-10-06 16:29:42,981 - ERROR - Internal Server Error: /api/cpu/
+2024-10-06 16:29:42,982 - INFO - CPU usage requested: 50%
+2024-10-06 16:29:42,983 - ERROR - Error getting disk usage: Disk error
+2024-10-06 16:29:42,983 - ERROR - Internal Server Error: /api/disk/
+2024-10-06 16:29:42,984 - INFO - disk usage requested
+2024-10-06 16:29:42,989 - ERROR - Error getting memory usage: Memory error
+2024-10-06 16:29:42,989 - ERROR - Internal Server Error: /api/memory/
+2024-10-06 16:29:42,992 - INFO - Memory usage requested.
+2024-10-06 16:32:38,159 - ERROR - Error getting bandwidth usage: Bandwidth error
+2024-10-06 16:32:38,160 - ERROR - Internal Server Error: /api/bandwidth/
+2024-10-06 16:32:38,162 - INFO - Bandwidth usage requested.
+2024-10-06 16:32:38,163 - ERROR - Error getting CPU usage: CPU error
+2024-10-06 16:32:38,163 - ERROR - Internal Server Error: /api/cpu/
+2024-10-06 16:32:38,165 - INFO - CPU usage requested: 50%
+2024-10-06 16:32:38,167 - ERROR - Error getting disk usage: Disk error
+2024-10-06 16:32:38,167 - ERROR - Internal Server Error: /api/disk/
+2024-10-06 16:32:38,169 - INFO - disk usage requested
+2024-10-06 16:32:38,172 - ERROR - Error getting memory usage: Memory error
+2024-10-06 16:32:38,172 - ERROR - Internal Server Error: /api/memory/
+2024-10-06 16:32:38,174 - INFO - Memory usage requested.
+2024-10-06 16:33:26,559 - ERROR - Error getting bandwidth usage: Bandwidth error
+2024-10-06 16:33:26,560 - ERROR - Internal Server Error: /api/bandwidth/
+2024-10-06 16:33:26,561 - INFO - Bandwidth usage requested.
+2024-10-06 16:33:26,564 - ERROR - Error getting CPU usage: CPU error
+2024-10-06 16:33:26,564 - ERROR - Internal Server Error: /api/cpu/
+2024-10-06 16:33:26,565 - INFO - CPU usage requested: 50%
+2024-10-06 16:33:26,566 - ERROR - Error getting disk usage: Disk error
+2024-10-06 16:33:26,566 - ERROR - Internal Server Error: /api/disk/
+2024-10-06 16:33:26,567 - INFO - disk usage requested
+2024-10-06 16:33:26,568 - ERROR - Error getting memory usage: Memory error
+2024-10-06 16:33:26,568 - ERROR - Internal Server Error: /api/memory/
+2024-10-06 16:33:26,571 - INFO - Memory usage requested.
+2024-10-06 16:34:33,008 - WARNING - Not Found: /
+2024-10-06 16:34:43,247 - INFO - CPU usage requested: 1.8%
+2024-10-06 16:34:48,360 - INFO - CPU usage requested: 4.3%
+2024-10-06 16:34:50,808 - INFO - Memory usage requested.
+2024-10-06 16:35:01,068 - INFO - disk usage requested
+2024-10-06 16:35:03,598 - INFO - disk usage requested
+2024-10-06 16:35:22,695 - WARNING - Not Found: /api/bandwisth
+2024-10-06 16:35:30,116 - INFO - Bandwidth usage requested.
+2024-10-06 16:50:32,582 - ERROR - Error getting bandwidth usage: Bandwidth error
+2024-10-06 16:50:32,583 - ERROR - Internal Server Error: /api/bandwidth/
+2024-10-06 16:50:32,584 - INFO - Bandwidth usage requested.
+2024-10-06 16:50:32,586 - ERROR - Error getting CPU usage: CPU error
+2024-10-06 16:50:32,586 - ERROR - Internal Server Error: /api/cpu/
+2024-10-06 16:50:32,588 - INFO - CPU usage requested: 50%
+2024-10-06 16:50:32,589 - ERROR - Error getting disk usage: Disk error
+2024-10-06 16:50:32,590 - ERROR - Internal Server Error: /api/disk/
+2024-10-06 16:50:32,591 - INFO - disk usage requested
+2024-10-06 16:50:32,593 - ERROR - Error getting memory usage: Memory error
+2024-10-06 16:50:32,594 - ERROR - Internal Server Error: /api/memory/
+2024-10-06 16:50:32,595 - INFO - Memory usage requested.
