@@ -41,6 +41,12 @@ INSTALLED_APPS = [
     'monitor' ,
 ]
 
+REST_FRAMEWORK={
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'monitor.authentication.APIKeyAuthentication',
+    ],
+}
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -50,7 +56,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
-
+API_KEY='CS218'
 ROOT_URLCONF = 'system_monitor.urls'
 
 TEMPLATES = [

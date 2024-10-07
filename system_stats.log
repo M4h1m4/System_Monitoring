@@ -179,3 +179,7 @@
 2024-10-06 16:50:32,593 - ERROR - Error getting memory usage: Memory error
 2024-10-06 16:50:32,594 - ERROR - Internal Server Error: /api/memory/
 2024-10-06 16:50:32,595 - INFO - Memory usage requested.
+2024-10-06 17:27:33,858 - WARNING - Forbidden: /api/memory/
+2024-10-06 17:27:42,783 - WARNING - Forbidden: /api/cpu/
+2024-10-06 17:27:43,096 - WARNING - Forbidden: /api/cpu/
+2024-10-06 17:29:16,840 - WARNING - Forbidden: /api/disk/
