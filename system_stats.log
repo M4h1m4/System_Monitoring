@@ -179,3 +179,9 @@
 2024-10-06 16:50:32,593 - ERROR - Error getting memory usage: Memory error
 2024-10-06 16:50:32,594 - ERROR - Internal Server Error: /api/memory/
 2024-10-06 16:50:32,595 - INFO - Memory usage requested.
+2024-10-16 04:03:26,292 - WARNING - Not Found: /
+2024-10-16 04:03:26,708 - WARNING - Not Found: /favicon.ico
+2024-10-16 04:03:36,274 - INFO - CPU usage requested: 50.0%
+2024-10-16 04:03:42,939 - INFO - Memory usage requested.
+2024-10-16 04:03:53,942 - INFO - disk usage requested
+2024-10-16 04:04:08,065 - INFO - Bandwidth usage requested.
