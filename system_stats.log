@@ -179,3 +179,79 @@
 2024-10-06 16:50:32,593 - ERROR - Error getting memory usage: Memory error
 2024-10-06 16:50:32,594 - ERROR - Internal Server Error: /api/memory/
 2024-10-06 16:50:32,595 - INFO - Memory usage requested.
+2024-10-16 16:48:08,852 - INFO - CPU usage requested: 100.0%
+2024-10-16 16:48:19,456 - INFO - Memory usage requested.
+2024-10-16 17:03:55,114 - WARNING - Forbidden: /api/memory/
+2024-10-16 17:04:01,521 - WARNING - Not Found: /
+2024-10-16 17:04:02,230 - WARNING - Not Found: /favicon.ico
+2024-10-16 17:04:07,525 - WARNING - Forbidden: /api/cpu/
+2024-10-16 17:04:08,140 - WARNING - Not Found: /favicon.ico
+2024-10-16 17:04:49,136 - WARNING - Not Found: /
+2024-10-16 17:04:49,570 - WARNING - Not Found: /favicon.ico
+2024-10-16 17:04:55,286 - WARNING - Forbidden: /api/memory/
+2024-10-16 17:07:54,348 - WARNING - Forbidden: /api/cpu/
+2024-10-16 17:07:58,070 - WARNING - Not Found: /favicon.ico
+2024-10-16 17:09:12,280 - WARNING - Forbidden: /api/cpu/
+2024-10-16 17:09:13,790 - WARNING - Not Found: /favicon.ico
+2024-10-16 17:13:48,711 - WARNING - Forbidden: /api/cpu/
+2024-10-16 17:14:20,948 - INFO - /home/mahimam/Downloads/System_Monitoring/system_monitor/settings.py changed, reloading.
+2024-10-16 17:16:25,119 - ERROR - Internal Server Error: /api/cpu/
+Traceback (most recent call last):
+  File "/home/mahimam/.local/lib/python3.8/site-packages/rest_framework/request.py", line 74, in wrap_attributeerrors
+    yield
+  File "/home/mahimam/.local/lib/python3.8/site-packages/rest_framework/request.py", line 231, in user
+    self._authenticate()
+  File "/home/mahimam/.local/lib/python3.8/site-packages/rest_framework/request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+  File "/home/mahimam/Downloads/System_Monitoring/monitor/authentication.py", line 10, in authenticate
+    if api_key == f"Token {settings.API_KEY}":
+  File "/home/mahimam/.local/lib/python3.8/site-packages/django/conf/__init__.py", line 104, in __getattr__
+    val = getattr(_wrapped, name)
+AttributeError: 'Settings' object has no attribute 'API_KEY'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mahimam/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mahimam/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mahimam/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/mahimam/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mahimam/.local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mahimam/.local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mahimam/.local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/mahimam/.local/lib/python3.8/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/mahimam/.local/lib/python3.8/site-packages/rest_framework/views.py", line 414, in initial
+    self.perform_authentication(request)
+  File "/home/mahimam/.local/lib/python3.8/site-packages/rest_framework/views.py", line 324, in perform_authentication
+    request.user
+  File "/home/mahimam/.local/lib/python3.8/site-packages/rest_framework/request.py", line 231, in user
+    self._authenticate()
+  File "/usr/lib/python3.8/contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/mahimam/.local/lib/python3.8/site-packages/rest_framework/request.py", line 78, in wrap_attributeerrors
+    raise exc.with_traceback(info[2])
+  File "/home/mahimam/.local/lib/python3.8/site-packages/rest_framework/request.py", line 74, in wrap_attributeerrors
+    yield
+  File "/home/mahimam/.local/lib/python3.8/site-packages/rest_framework/request.py", line 231, in user
+    self._authenticate()
+  File "/home/mahimam/.local/lib/python3.8/site-packages/rest_framework/request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+  File "/home/mahimam/Downloads/System_Monitoring/monitor/authentication.py", line 10, in authenticate
+    if api_key == f"Token {settings.API_KEY}":
+  File "/home/mahimam/.local/lib/python3.8/site-packages/django/conf/__init__.py", line 104, in __getattr__
+    val = getattr(_wrapped, name)
+rest_framework.request.WrappedAttributeError: 'Settings' object has no attribute 'API_KEY'
+2024-10-16 17:20:54,589 - WARNING - Forbidden: /api/cpu/
+2024-10-16 17:24:11,067 - INFO - CPU usage requested: 6.3%
+2024-10-16 17:24:49,996 - WARNING - Forbidden: /api/cpu/
+2024-10-16 18:31:05,464 - WARNING - Forbidden: /api/cpu/
+2024-10-16 18:31:48,079 - INFO - CPU usage requested: 2.1%
+2024-10-16 19:03:39,221 - INFO - CPU usage requested: 5.3%

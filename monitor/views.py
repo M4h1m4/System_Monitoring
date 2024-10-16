@@ -4,6 +4,8 @@ import logging
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
 from rest_framework import status
+from rest_framework.decorators import api_view, authentication_classes
+from .authentication import SharedAPIKeyAuthentication
 
 # Create your views here.
 #configure logging
@@ -13,6 +15,7 @@ logger = logging.getLogger(__name__)
 
 #API to get CPU Usage
 @api_view(['GET'])
+@authentication_classes([SharedAPIKeyAuthentication])
 def cpu_usage(request):
     try:
         cpu_percent=psutil.cpu_percent(interval=1)
@@ -23,6 +26,7 @@ def cpu_usage(request):
         return Response({'error': 'Could not fetch CPU usage.'}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
 @api_view(['GET'])
+@authentication_classes([SharedAPIKeyAuthentication])
 def memory_usage(request):
     try:
         memory_usage=psutil.virtual_memory()
@@ -39,6 +43,7 @@ def memory_usage(request):
 
 
 @api_view(['GET'])
+@authentication_classes([SharedAPIKeyAuthentication])
 def disk_usage(request):
     try:
         disk=psutil.disk_usage('/')
@@ -55,6 +60,7 @@ def disk_usage(request):
 
 
 @api_view(['GET'])
+@authentication_classes([SharedAPIKeyAuthentication])
 def bandwidth_usage(request):
     try:
         net_io = psutil.net_io_counters()
