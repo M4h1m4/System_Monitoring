@@ -264,3 +264,4 @@ rest_framework.request.WrappedAttributeError: 'Settings' object has no attribute
 2024-10-16 04:03:53,942 - INFO - disk usage requested
 2024-10-16 04:04:08,065 - INFO - Bandwidth usage requested.
 >>>>>>> 25d9e1787e26fe1ff667fe1e1d516853cf9cbb23
+2024-10-16 20:38:21,252 - INFO - CPU usage requested: 3.2%
