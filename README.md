@@ -14,13 +14,14 @@ But for better understanding of the requirements, below are steps to install the
 * sudo pip3 install django
 * pip install django
 
-**Steps to use the API **
+**Steps to use the API**
 * Create a EC2 instance
 * Install docker to pull and run the docker image --> sudo yum install docker
 * sudo systemctl start docker
 * Pull the docker image from the dockerhub --> sudo docker pull m4h1m4/rest_api:latest
 * Run the docker image with the command --> sudo docker run -d -p 8000:8000 m4h1m4/rest_api
-* Test the api with the required end point
+* Access the API with the required end point with curl command --> curl -L -H "Authorization:CS218" http://localhost:8000/api/cpu
+* Replace "cpu" with "disk", "memory", "bandwidth" as per necissity.
   
 
 
