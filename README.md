@@ -8,7 +8,7 @@ The API is containerized and with Docker and deployed on EC2 for better scalabil
 * API Endpoints
 * Technologies Used
 
-**Installation**
+**Installation**<br/>
 The API will require to install few softwares. This will be done automatically when the the docker image is pulled from the docker hub and ran.
 But for better understanding of the requirements, below are steps to install the softwares.<br/>
 * sudo apt-get install -y python3 python3-pip
