@@ -1,4 +1,3 @@
----
 name: Django CI/CD
 
 on:
@@ -11,7 +10,7 @@ on:
 
 jobs:
   test:
-    name: Test, Lint and Measure Code Coverage
+    name: Test and Lint
     runs-on: ubuntu-latest
 
     steps:
@@ -38,6 +37,8 @@ jobs:
 
       # Run tests with coverage
       - name: Run Tests with Coverage
+        env:
+          DJANGO_SETTINGS_MODULE: "system_monitor.settings"
         run: |
           coverage run -m unittest discover  # or pytest if you prefer
           coverage report  # Optional, you can display a simple text report
@@ -49,9 +50,9 @@ jobs:
           pip install flake8
           flake8 .
 
-      # Upload coverage results to Codecov (optional)
+      # Upload coverage to Codecov
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v3
         with:
-          file: coverage.xml  # If you're generating an XML report
+          file: coverage.xml
 
