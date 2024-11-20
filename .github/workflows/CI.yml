@@ -33,7 +33,9 @@ jobs:
 
       # Set DJANGO_SETTINGS_MODULE environment variable
       - name: Set Django Settings
-        run: echo "DJANGO_SETTINGS_MODULE=system_monitor.settings" >> $GITHUB_ENV
+        run: |
+         export DJANGO_SETTINGS_MODULE=system_monitor.test_settings
+         echo "DJANGO_SETTINGS_MODULE=system_monitor.settings" >> $GITHUB_ENV
 
       # Run tests with coverage
       - name: Run Tests with Coverage
