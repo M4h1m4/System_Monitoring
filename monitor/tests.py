@@ -1,6 +1,5 @@
 # from django.test import TestCase
 import unittest
-
 # Create your tests here.
 from rest_framework.test import APITestCase, APIClient
 from rest_framework import status
