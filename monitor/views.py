@@ -1,4 +1,4 @@
-from django.shortcuts import render
+#from django.shortcuts import render
 import psutil
 import logging
 from rest_framework.response import Response

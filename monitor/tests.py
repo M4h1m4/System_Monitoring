@@ -1,6 +1,6 @@
-from django.test import TestCase
+#from django.test import TestCase
 import unittest
-from unittest.mock import patch, Mock
+from unittest.mock import patch
 # Create your tests here.
 from rest_framework.test import APITestCase, APIClient
 from rest_framework import status
