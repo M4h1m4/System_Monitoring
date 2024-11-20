@@ -1,3 +1,4 @@
+---
 name: Django CI/CD
 
 on:
@@ -40,6 +41,3 @@ jobs:
         run: |
           pip install flake8
           flake8 .
-
-
-
