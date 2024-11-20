@@ -1,3 +1,4 @@
+---
 name: Django CI/CD
 
 on:
@@ -29,23 +30,14 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          pip install coverage pytest-cov
 
-      # Set DJANGO_SETTINGS_MODULE environment variable
-      - name: Set Django Settings
+      # Run tests
+      - name: Run Tests
         run: |
-         export DJANGO_SETTINGS_MODULE=system_monitor.test_settings
-         echo "DJANGO_SETTINGS_MODULE=system_monitor.settings" >> $GITHUB_ENV
+          python manage.py test
 
       # Lint with Flake8
       - name: Lint Code
         run: |
           pip install flake8
           flake8 .
-
-
-
-
-
-
-
