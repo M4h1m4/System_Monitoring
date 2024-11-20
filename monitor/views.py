@@ -13,7 +13,7 @@ logging.basicConfig(filename='system_stats.log', level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-#API to get CPU Usage
+
 @api_view(['GET'])
 @authentication_classes([SharedAPIKeyAuthentication])
 def cpu_usage(request):
@@ -24,6 +24,7 @@ def cpu_usage(request):
     except Exception as e: 
         logger.error(f'Error getting CPU usage: {str(e)}')
         return Response({'error': 'Could not fetch CPU usage.'}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
 
 @api_view(['GET'])
 @authentication_classes([SharedAPIKeyAuthentication])

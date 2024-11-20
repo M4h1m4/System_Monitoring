@@ -7,6 +7,7 @@ from rest_framework import status
 from unittest.mock import patch
 import psutil
 
+
 class SystemMonitorTests(APITestCase):
     def setUp(self):
         self.client = APIClient()
