@@ -1,5 +1,4 @@
 [flake8]
-
-max-line-length = 125  # (optional) Increase the max line length
-extend-ignore = E501  # Ignore 'line too long' rule for function signatures
+max-line-length = 125
+extend-ignore = E501
 
