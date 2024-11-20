@@ -10,6 +10,7 @@ import psutil
 class SystemMonitorTests(APITestCase):
     def setUp(self):
         self.client = APIClient()
+        self.client.credentials(HTTP_AUTHORIZATION='CS218')
 
     # Test CPU usage endpoint
     @patch('psutil.cpu_percent')
