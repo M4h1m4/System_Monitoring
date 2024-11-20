@@ -1,4 +1,4 @@
-#from django.shortcuts import render
+# from django.shortcuts import render
 import psutil
 import logging
 from rest_framework.response import Response
@@ -8,7 +8,7 @@ from rest_framework.decorators import api_view, authentication_classes
 from .authentication import SharedAPIKeyAuthentication
 
 # Create your views here.
-#configure logging
+# configure logging
 logging.basicConfig(filename='system_stats.log', level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
