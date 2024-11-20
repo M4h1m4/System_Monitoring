@@ -269,3 +269,15 @@ rest_framework.request.WrappedAttributeError: 'Settings' object has no attribute
 2024-11-20 18:54:46,586 - INFO - Bandwidth usage requested.
 2024-11-20 18:54:59,058 - INFO - disk usage requested
 2024-11-20 18:55:09,367 - INFO - Memory usage requested.
+2024-11-20 23:22:29,001 - ERROR - Error getting bandwidth usage: Bandwidth error
+2024-11-20 23:22:29,002 - ERROR - Internal Server Error: /api/bandwidth/
+2024-11-20 23:22:29,073 - INFO - Bandwidth usage requested.
+2024-11-20 23:22:29,074 - ERROR - Error getting CPU usage: CPU error
+2024-11-20 23:22:29,075 - ERROR - Internal Server Error: /api/cpu/
+2024-11-20 23:22:29,085 - INFO - CPU usage requested: 50%
+2024-11-20 23:22:29,087 - ERROR - Error getting disk usage: Disk error
+2024-11-20 23:22:29,087 - ERROR - Internal Server Error: /api/disk/
+2024-11-20 23:22:29,099 - INFO - disk usage requested
+2024-11-20 23:22:29,102 - ERROR - Error getting memory usage: Memory error
+2024-11-20 23:22:29,102 - ERROR - Internal Server Error: /api/memory/
+2024-11-20 23:22:29,117 - INFO - Memory usage requested.
