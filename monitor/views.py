@@ -21,7 +21,7 @@ def cpu_usage(request):
         cpu_percent=psutil.cpu_percent(interval=1)
         logger.info(f'CPU usage requested: {cpu_percent}%')
         return Response({'cpu_usage': f'{cpu_percent}%'})
-    except Exception as e: 
+    except Exception as e:
         logger.error(f'Error getting CPU usage: {str(e)}')
         return Response({'error': 'Could not fetch CPU usage.'}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 

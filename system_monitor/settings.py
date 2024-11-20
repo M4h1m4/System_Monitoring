@@ -24,7 +24,7 @@ API_KEY = 'CS218'
 # SECRET_KEY = 'django-insecure-ga4o8_7n$=mjr#zc^w)t#*fb(n_h$doh0@&*h+m=_oyihz5@2u'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False 
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
