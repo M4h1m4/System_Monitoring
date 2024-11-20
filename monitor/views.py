@@ -2,9 +2,9 @@
 import psutil
 import logging
 from rest_framework.response import Response
-from rest_framework.decorators import api_view
-from rest_framework import status
 from rest_framework.decorators import api_view, authentication_classes
+from rest_framework import status
+# from rest_framework.decorators import authentication_classes
 from .authentication import SharedAPIKeyAuthentication
 
 # Create your views here.

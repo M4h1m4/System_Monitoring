@@ -6,8 +6,7 @@ from rest_framework.exceptions import AuthenticationFailed
 class SharedAPIKeyAuthentication(BaseAuthentication):
     def authenticate(self, request):
         api_key = request.headers.get('Authorization')
-        
-        # Check if the API key matches the key in settings
+       # Check if the API key matches the key in settings
         if api_key == "CS218":
             return (None, None)  # No user associated, just allow access
         else:
