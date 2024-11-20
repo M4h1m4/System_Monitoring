@@ -18,7 +18,7 @@ logger = logging.getLogger(__name__)
 @authentication_classes([SharedAPIKeyAuthentication])
 def cpu_usage(request):
     try:
-        cpu_percent=psutil.cpu_percent(interval=1)
+        cpu_percent = psutil.cpu_percent(interval=1)
         logger.info(f'CPU usage requested: {cpu_percent}%')
         return Response({'cpu_usage': f'{cpu_percent}%'})
     except Exception as e:
@@ -34,8 +34,8 @@ def memory_usage(request):
         logger.info('Memory usage requested.')
         return Response({
             'total_memory': memory_usage.total,
-            'used_memory' : memory_usage.used,
-            'available_memory' : memory_usage.available,
+            'used_memory': memory_usage.used,
+            'available_memory': memory_usage.available,
             'memory_usage_percent': f'{memory_usage.percent}%'
         })
     except Exception as e:
@@ -47,7 +47,7 @@ def memory_usage(request):
 @authentication_classes([SharedAPIKeyAuthentication])
 def disk_usage(request):
     try:
-        disk=psutil.disk_usage('/')
+        disk = psutil.disk_usage('/')
         logger.info('disk usage requested')
         return Response({
             'total_disk':disk.total,
