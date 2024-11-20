@@ -26,7 +26,10 @@ class SystemMonitorTests(APITestCase):
     def test_cpu_usage_failure(self, mock_cpu_percent):
         # Simulate an error during CPU fetch
         response = self.client.get('/api/cpu/')
-        self.assertEqual(response.status_code, status.HTTP_500_INTERNAL_SERVER_ERROR)
+        self.assertEqual(
+                response.status_code,
+                status.HTTP_500_INTERNAL_SERVER_ERROR
+                )
         self.assertEqual(response.data['error'], 'Could not fetch CPU usage.')
 
     # Test Memory usage endpoint
