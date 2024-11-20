@@ -30,7 +30,7 @@ def cpu_usage(request):
 @authentication_classes([SharedAPIKeyAuthentication])
 def memory_usage(request):
     try:
-        memory_usage=psutil.virtual_memory()
+        memory_usage = psutil.virtual_memory()
         logger.info('Memory usage requested.')
         return Response({
             'total_memory': memory_usage.total,
@@ -50,7 +50,7 @@ def disk_usage(request):
         disk = psutil.disk_usage('/')
         logger.info('disk usage requested')
         return Response({
-            'total_disk':disk.total,
+            'total_disk': disk.total,
             'used_disk': disk.used,
             'free_disk': disk.free,
             'disk_usage_percent': f'{disk.percent}%',

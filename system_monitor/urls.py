@@ -20,7 +20,7 @@ from monitor import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-     path('api/cpu/', views.cpu_usage),
+    path('api/cpu/', views.cpu_usage),
     path('api/memory/', views.memory_usage),
     path('api/disk/', views.disk_usage),
     path('api/bandwidth/', views.bandwidth_usage),
